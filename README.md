@@ -1,5 +1,10 @@
 # Self Driving Car using Tensorflow 2.0+ and Keras
-This repository consist of code implementation for self driving car. This repo have implementation of simple regression based ConvNet model.
+Dataset contains of images recorded from a car dashcam with labeled steering angles. Approximately 63,000 images, 3.1GB. Data was recorded around Rancho Palos Verdes and San Pedro California.
+This repo have implementation of simple regression based ConvNet model to predict the steering angle. 
+<br>
+# Dataset
+Dataset for the same can be downloaded from the given link.<br>
+link - https://github.com/SullyChen/driving-datasets
 <br>
 
 # Library
@@ -12,15 +17,3 @@ This repository consist of code implementation for self driving car. This repo h
 Here, we have used Nvidea's self driving car architecture with some minor changes<br>
 link- https://developer.nvidia.com/blog/deep-learning-self-driving-cars/
 <br>
-
-# Dataset
-Dataset for the same can be downloaded from the given link.<br>
-link - https://github.com/SullyChen/driving-datasets
-<br>
-
-# Pre-trained Model
-If you don't want to train model from the scratch, then you can directly load the pre-trained model files attached above and see the output.
-<br>
-
-# Author
-Krunal Thumar
